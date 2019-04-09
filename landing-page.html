@@ -20,7 +20,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="landing-page.html">Latitude</a>
+    <a class="navbar-brand" href="landing-page.html">Summary</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,10 +32,10 @@
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="visualization-page-1.html">Max temperature</a>
-            <a class="dropdown-item" href="visualization-page-2.html">Humidity</a>
-            <a class="dropdown-item" href="visualization-page-3.html">Cloudiness</a>
-            <a class="dropdown-item" href="visualization-page-4.html">Wind speed</a>
+            <a class="dropdown-item" href="visualization-page-1.html">Journal size vs. volatility</a>
+            <a class="dropdown-item" href="visualization-page-2.html">Journal size vs. relative volatility</a>
+            <a class="dropdown-item" href="visualization-page-3.html">Citation average vs. top-cited paper</a>
+            <a class="dropdown-item" href="visualization-page-4.html">Citation average vs. volatility</a>
           </div>
           <li class="nav-item active">
             <!--<a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>-->
@@ -61,18 +61,26 @@
     <div class="row">
       <div class="col-md-8">
         <div class="box skyblue">
-          <h1>Summary: Latitude vs. X</h1> 
+          <h1>Summary: The volatility of citation averages</h1> 
           <hr> 
-          <a target="_blank" href="Resources/assets/images/Fig1.png">
-            <img src="Resources/assets/images/Fig1.png" width="40%" class="img-thumbnail"  alt="">
+          <a target="_blank" href="Resources/assets/images/6.png">
+            <img src="Resources/assets/images/6.png" width="40%" class="img-thumbnail"  alt="">
           </a>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-          It has survived not only five centuries, but also the leap into electronic typesetting, 
-          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-          sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-          ike Aldus PageMaker including versions of Lorem Ipsum.
+          For a performance indicator of a population of papers to be reliable, it needs to be 
+          relatively stable and not too sensitive to fluctuations or outliers—otherwise, the 
+          indicator becomes more of a measure of the few outliers than the general population. So, 
+          how volatile are Impact Factors, and other citation averages in general? 
+          
+          We study how a single paper can affect a journal's citation average, or Impact Factor (IF), 
+          using data from 11669 journals in the 2017 Journal Citation Reports of Clarivate Analytics. 
+          As a metric of IF volatility, we define the IF gain 
+          caused by the top-cited paper in the journal during the IF time window. We find that 
+          hundreds of 
+           journals each year have their IF significantly boosted by a single paper—whether it is 
+           a highly-cited paper in a small journal, or a moderately (or even low-cited) paper in a 
+           small and otherwise low-cited journal. 
+           
+          
         
         </div>
       </div>
@@ -80,17 +88,17 @@
         <div class="box skyblue">
           <h1>Visualizations</h1>
           <hr> 
-          <a target="_blank" href="Resources/assets/images/Fig1.png">
-            <img src="Resources/assets/images/Fig1.png" width="40%" class="img-thumbnail"  alt="">
+          <a target="_blank" href="Resources/assets/images/6.png">
+            <img src="Resources/assets/images/6.png" width="40%" class="img-thumbnail"  alt="">
           </a>
-          <a target="_blank" href="Resources/assets/images/Fig2.png">
-            <img src="Resources/assets/images/Fig2.png" width="40%" class="img-thumbnail"  alt="">
+          <a target="_blank" href="Resources/assets/images/3.png">
+            <img src="Resources/assets/images/3.png" width="40%" class="img-thumbnail"  alt="">
           </a>
-          <a target="_blank" href="Resources/assets/images/Fig3.png">
-            <img src="Resources/assets/images/Fig3.png" width="40%" class="img-thumbnail"  alt="">
+          <a target="_blank" href="Resources/assets/images/2.png">
+            <img src="Resources/assets/images/2.png" width="40%" class="img-thumbnail"  alt="">
           </a>
-          <a target="_blank" href="Resources/assets/images/Fig4.png">
-            <img src="Resources/assets/images/Fig4.png" width="40%" class="img-thumbnail"  alt="">
+          <a target="_blank" href="Resources/assets/images/4.png">
+            <img src="Resources/assets/images/4.png" width="40%" class="img-thumbnail"  alt="">
           </a>
         </div>
       </div>
